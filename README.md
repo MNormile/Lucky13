@@ -124,6 +124,7 @@ $ nano hosts
 (add the internal network IP address(es) of your webserver(s) under the [webservers] group and add [elkservers] to the bottom of the file with the specified IP address below. The result should look similar to:
 
 [webservers]
+
 10.0.0.9 ansible\_python\_interpreter=/usr/bin/python3
 
 10.0.0.7 ansible\_python\_interpreter=/usr/bin/python3
