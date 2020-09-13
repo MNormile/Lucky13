@@ -106,7 +106,7 @@ Copy the Lucky13/Ansible/Deploy-DVWA-ELK-filebeat-and-metricbeat.yml_file to /et
 
 Update the _hosts_ file to include _[elkservers]_and put the IP Adresses under the intended group. Run the playbook, and navigate to the ELK servers public IP on your local web broswer to check that the installation worked as expected.
 
-_Note: it is important that after each IP address in the hosts file you include the following on the same line: ansible\_python\_interpreter=/usr/bin/python3
+Note: it is important that after each IP address in the hosts file you include the following on the same line: ansible\_python\_interpreter=/usr/bin/python3
 
 
 
